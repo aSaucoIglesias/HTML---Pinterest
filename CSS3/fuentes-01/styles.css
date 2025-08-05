@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url(assets/fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf) format('truetype');
+    font-weight: normal;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Bergdool";
+    src: url(assets/fonts/Bergdool-w1EmZ.ttf) format('truetype');
+    font-weight: normal;
+    font-display: swap;
+    font-style: normal;
+}
+
+p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+h1, h2{
+    font-family: "Bergdool", serif;
+}

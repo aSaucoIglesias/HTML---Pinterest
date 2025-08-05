@@ -1,0 +1,45 @@
+ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul li{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-right: 1px solid #ccc;
+}
+
+ul li:last-child{
+    border-right: none;
+}
+
+ul li a:hover{
+    background-color: #ccc;
+}
+
+.card{
+    box-sizing: border-box;
+    max-width: 560px;
+    margin: 50px;
+    border: 5px solid #ccc;
+}
+
+.card-thumbnail{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: calc(100% - 40px);
+    height: auto;
+}
+
+.card-title{
+    padding: 10px 20px;
+}
+
+.card-description{
+    padding: 20px;
+}

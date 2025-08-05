@@ -1,0 +1,22 @@
+.contenedor{
+    position: relative;
+    color: coral;
+}
+
+.tooltip{
+    border: 1px solid #333;
+    color: black;
+    position: absolute;
+    display: none;
+    top: 50px;
+    left: 50px;
+    width: 100px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+.contenedor:hover .tooltip{
+    display: block;
+}
