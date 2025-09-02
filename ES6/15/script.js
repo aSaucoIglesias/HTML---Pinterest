@@ -13,13 +13,19 @@ const fantasticFour = [
 
 function swap(array, index1, index2) {
   
-  const temp = array[index1];
-  
-  array[index1] = array[index2];
-  array[index2] = temp;
-  
-  return array; 
+    const temp = array[index1];
+
+    array[index1] = array[index2];
+    array[index2] = temp;
+
+    return array; 
+}
+
+function swap2(array, index1, index2) {
+    [array[index1], array[index2]] = [array[index2], array[index1]];
+    return array;
 }
 
 console.log(swap([...fantasticFour], 0, 2));
 console.log(swap([...fantasticFour], 1, 3));
+console.log(swap2([...fantasticFour], 0, 3));
