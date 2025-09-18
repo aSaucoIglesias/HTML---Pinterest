@@ -1,0 +1,15 @@
+# Node modules
+node_modules/
+
+# Logs
+*.log
+
+# MacOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Archivos temporales
+*.swp
+*.tmp
