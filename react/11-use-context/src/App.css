@@ -1,0 +1,22 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.color-dark,
+.color-light{
+  height: 100vh;
+  transition: all .3 ease-in;
+}
+
+.color-dark {
+  background-color: black;
+  color: whitesmoke;
+}
+
+.color-light{
+  background-color: whitesmoke;
+  color: black;
+}
