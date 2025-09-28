@@ -20,4 +20,4 @@ Cada carpeta corresponde a un módulo o práctica concreta, organizada por temas
 
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/FullStack.git](https://github.com/aSaucoIglesias/HTML---Pinterest/tree/master)
+   git clone https://github.com/aSaucoIglesias/HTML---Pinterest/tree/master
