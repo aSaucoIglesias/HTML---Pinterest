@@ -5,17 +5,15 @@ Cada carpeta corresponde a un módulo o práctica concreta, organizada por temas
 
 ## Estructura del repositorio
 
-- **/proyecto1-nombre** → Descripción breve del proyecto 1  
-- **/proyecto2-nombre** → Descripción breve del proyecto 2  
-- **/proyecto3-nombre** → Descripción breve del proyecto 3  
-- *(y así sucesivamente...)*
+- Los distintos proyectos se encuentran organizados en directorios propios.
+- Cada directorio incluye su código fuente y, en algunos casos, un README adicional con instrucciones específicas.
 
 ## Tecnologías que estoy aprendiendo
 
 - HTML, CSS, JavaScript
 - React
 - Node.js & Express
-- Bases de datos (SQL / NoSQL)
+- Bases de datos (MongoDB)
 - Git & GitHub
 
 ## Cómo usar este repositorio
